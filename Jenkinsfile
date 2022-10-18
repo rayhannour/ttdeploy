@@ -24,8 +24,7 @@ stage('Pull image') {
       steps {
         script {
           kubernetesDeploy(configs: "deployment.yaml", kubeconfigId: "kubernetes")
-	  kubernetesDeploy(configs: "deploymenteureka.yaml", kubeconfigId: "kubernetes")
-	  kubernetesDeploy(configs: "deploymentgateway.yaml", kubeconfigId: "kubernetes")
+	  
         }
       }
     }
