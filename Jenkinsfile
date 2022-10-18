@@ -6,7 +6,7 @@ agent any
   
 stage('Checkout Source') {
       steps {
-        git url:'https://github.com/rayhannour/ttpipeline.git', branch:'main'
+        git url:'https://github.com/rayhannour/ttdeploy.git', branch:'main'
       }
     }
 
