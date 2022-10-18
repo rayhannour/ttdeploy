@@ -32,6 +32,6 @@ spec:
   - port: 8888
     targetPort: 8888
     protocol: TCP
-    nodePort: 51000
+    nodePort: 31002
   selector:
     app: gateway-services
