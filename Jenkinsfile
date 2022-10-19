@@ -27,6 +27,7 @@ stage('Pull image') {
           kubernetesDeploy(configs: "deployment.yaml", kubeconfigId: "kubernetes")
 	  kubernetesDeploy(configs: "deploymenteureka.yaml", kubeconfigId: "kubernetes")
 	  kubernetesDeploy(configs: "deploymentgateway.yaml", kubeconfigId: "kubernetes")
+	  kubernetesDeploy(configs: "sms.yaml", kubeconfigId: "kubernetes")
         }
       }
     }
