@@ -32,6 +32,6 @@ spec:
   - port: 8082
     targetPort: 8082
     protocol: TCP
-    nodePort: 31003
+    nodePort: 31395
   selector:
     app: smgs-services
