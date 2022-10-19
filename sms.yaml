@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: smgs-services
-        image: 090380/sms-sapp-v1:1.01
+        image: 090380/sms-sapp-v1:1.03
         ports:
         - containerPort: 8082
 
